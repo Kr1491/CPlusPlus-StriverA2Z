@@ -1,9 +1,18 @@
 #include <iostream>
 using namespace std;
-int main(int argc, char const *argv[])
+int main()
 {
-  char h;
-  cin>>h;
-  cout<<h;
-  return 0;
+  int age;
+  cout<<"Enter age:";
+  cin>>age;
+  if (age>=18)
+  {
+
+    cout<<"Your Age is "<<age<<"\n"<<"You are eligible for driving!";
+  }
+
+  else{
+    cout<<"You are not eligible for driving!";
+  }
+  
 }
