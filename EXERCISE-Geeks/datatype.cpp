@@ -1,6 +1,6 @@
 // #include <iostream>
 // #include <typeinfo>
-// using namespace std;
+// using namespace std; //wrong code 
 
 // int datatype(string s){
 //     char i = 'i';
