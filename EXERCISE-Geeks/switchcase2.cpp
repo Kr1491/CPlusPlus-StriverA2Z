@@ -1,9 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
 string main(){
     int a;
+    cout<<"Enter Choice";
     cin>>a;
 
     switch (a)
