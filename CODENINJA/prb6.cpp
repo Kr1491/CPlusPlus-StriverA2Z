@@ -11,12 +11,12 @@ int main()
 
     if (num == 0 && power == 0)
     {
-        cout << 0;
+        cout << 1;
     }
 
     else if (num != 0 && power == 0)
     {
-        cout << num;
+        cout << 1;
     }
 
     else
