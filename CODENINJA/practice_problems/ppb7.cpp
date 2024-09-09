@@ -1,30 +1,36 @@
-// #include <iostream> //code error
-// using namespace std;
+#include <iostream>
 
-// void nStarTriangle(int n)
-// {
-//     for (int i = 1; i <= (n - 1) / 2; i++)
-//     {
-//         for (int l = 0; l < i; l++)
-//         {
-//             cout << " ";
-//             n--;
-//         }
-//         for (int k = 1; k <= n; k++)
-//         {
-//             for (int j = 1; j <= k; j++)
-//             {
-//                 cout << "*";
-//             }
+using namespace std;
 
-//             cout << endl;
-//         }
-//     }
-// }
+void nStarTriangle(int n) {
+    for (int i = 1; i <= n; i++)
+    {   
+        for (int j = 1; j <= (n-1)/2; j++)
+        {
+            cout<<" ";
+            
+        }
 
-// int main()
-// {
-//     int n;
-//     cin >> n;
-//     nStarTriangle(n);
-// }
+        for (int k = 1; k <= i ; k++)
+        {
+            if (i%2 !=0)
+            {
+                cout<<"*";
+            }
+
+            
+            
+        }
+
+        cout<<endl;
+        
+        
+    }
+    
+}
+
+int main(){
+    int n;
+    cin>>n;
+    nStarTriangle(n);
+}
