@@ -1,20 +1,26 @@
-   char a = tolower(c);
-    char vow[5] = {'a','e','i','o','u'};
-    int len = sizeof(vow);
+#include <iostream>
 
-    for (int i = 0; i <= len-1; i++)
+using namespace std;
+
+int main(){
+    int vow[5] = {'a','e','i','o','u'};
+    int len = sizeof(vow);
+    char a;
+    cout<<">>";
+    cin>>a;
+
+    for (int i = 0; i < len-1 ; i++)
     {
         if (vow[i] == a)
         {
-            return "YES";
-        }
-        
-        else if (vow[i] != a)
-        {
-            return "NO";
+            cout<<"You entered a vowel!";
+            break;
         }
 
+        else{
+            cout<<"You entered a consonant!";
+        }
         
     }
     
-
+}

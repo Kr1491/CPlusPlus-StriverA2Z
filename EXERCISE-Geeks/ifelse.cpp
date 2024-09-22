@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 class Solution {
   public:
     string compareNM(int n, int m){
