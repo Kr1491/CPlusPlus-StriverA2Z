@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int up_star(int n){
     for (int i = 0; i < n; i++)
     {
@@ -19,7 +17,7 @@ int up_star(int n){
         {
             cout<<" ";
         }
-
+    
         cout<<"\n";
         
         
